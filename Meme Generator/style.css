@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+background: linear-gradient(to left, rgb(107, 8, 107), rgb(126, 16, 235));
+}
+
+.meme-generator{
+    background: linear-gradient(to right, rgb(236, 167, 39) ,rgb(187, 187, 9));
+    margin: 50px auto;
+    font-size: "Roboto",sans-serif;
+    text-align: center;
+    max-width: 80%;
+    max-height: 85%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    border: none;
+    border-radius: 5px;
+}
+
+.meme-generator img{
+    height: 430px;
+    object-fit: cover;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+.generate-meme-btn{
+    border: none;
+    padding: 8px 20px;
+    border-left: 4px solid #0015ff;
+    border-right: 4px solid #0015ff;
+    margin: 24px 0;
+    font-size: 20px;
+    color: #440cff;
+    background-color: #fff;
+    font-weight: bold;
+    text-decoration: underline;
+    box-shadow: 2px 2px 5px rgba(34, 0, 255, 0.3);
+    text-shadow: 2px 2px 5px rgb(34, 34, 226);
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.generate-meme-btn:hover{
+    padding: 8px 36px;
+    border-left: 8px solid #00bbff;
+    border-right: 8px solid #00bbff;
+    letter-spacing: 3px;
+}
+
+.meme-author{
+    margin: 12px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.meme-title{
+    margin: 18px;
+}
+
+#developBy{
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 0px;
+    padding-top: 2%;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
